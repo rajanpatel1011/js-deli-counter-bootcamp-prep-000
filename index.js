@@ -32,7 +32,7 @@ function currentLine(katzDeli){
     for(var i = 0;i<katzDeli.length;i++){
       newArray[i] = ` ${i+1}. ${katzDeli[i]}`;
       }
-    return `The line is currently:${newArray} .`;
+    return `The line is currently:${newArray}`;
   }
 
 }
