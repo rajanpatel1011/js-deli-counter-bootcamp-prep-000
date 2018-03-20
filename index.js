@@ -12,13 +12,11 @@ return `Welcome, ${katzDeli[num-1]}. You are number ${num} in line.`;
 function nowServing(katzDeli){
   if(katzDeli.length===0){
     return "There is nobody waiting to be served!";
-  }
-
+  } else{
     var temp = katzDeli[katzDeli.length-1];
     katzDeli.pop();
-    
-  
   return `Currently serving ${temp}.`;
+}
 }
 /*
 function currentLine(katzDeli){
