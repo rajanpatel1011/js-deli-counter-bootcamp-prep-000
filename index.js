@@ -16,7 +16,7 @@ function nowServing(katzDeli){
 num = 1;
     var temp = katzDeli[num-1];
     katzDeli.pop();
-    num--;
+    
   
   return `Currently serving ${temp}.`;
 }
