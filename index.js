@@ -25,9 +25,12 @@ function currentLine(katzDeli){
   if(katzDeli.length===0){
    return 'The line is currently empty.'; 
   }
+  
+  
   else{
-    for(var i = 1;i<katzDeli.length+1;i++){
-      newArray[i] = ` ${i}. ${katzDeli[i-1]}`;
+    
+    for(var i = 0;i<katzDeli.length;i++){
+      newArray[i] = ` ${i+1}. ${katzDeli[i]}`;
       }
     return `The line is currently:${newArray} .`;
   }
