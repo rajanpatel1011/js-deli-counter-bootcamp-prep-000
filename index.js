@@ -3,7 +3,7 @@ var num ;
 
 
 function takeANumber(katzDeli,name){
- num = 0;
+ num = katzDeli.length;
 
 katzDeli.push(name);
 num++;
