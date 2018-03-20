@@ -13,7 +13,7 @@ function nowServing(katzDeli){
   if(katzDeli.length===0){
     return "There is nobody waiting to be served!";
   }
-num = 0;
+num = 1;
     var temp = katzDeli[num];
     katzDeli.pop();
     num--;
